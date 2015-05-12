@@ -67,7 +67,7 @@ public class Server extends Thread{
 	public static void main(String args[])throws Exception
 	{
 
-		int port=6636;
+		int port=6666;
 		
 		//建一个UDPsocket
 		DatagramSocket server = new DatagramSocket(port);
