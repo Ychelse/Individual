@@ -191,8 +191,8 @@ public class Client extends Thread implements ActionListener{
 	public static void main(String args[])throws Exception
 	{
 		
-		String serverIP="122.225.99.40";///122.225.99.40
-		int port=6636;
+		String serverIP="122.225.99.67";
+		int port=6666;
 		
 		//构造一个目标地址
 		SocketAddress target = new InetSocketAddress(serverIP, port); 
